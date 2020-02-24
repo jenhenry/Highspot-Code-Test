@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	background-color: #f7f7f7;
+}
+
+.navbar {
+	background-color: #fff !important;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	.form-inline,
+	.form-control {
+		font-size: .9rem;
+	}
+}
+
+.logo {
+	width: 180px;
+	color: #006dc7;
+	.logo__circle {
+		fill: #fff;
+	}
+	.logo__hourglass,
+	.logo__text {
+		fill: #006dc7;
+	}
+}
+
+.container {
+	height: auto !important;
+}
+.container.loader {
+	height: 100vh !important;
+}
+
+.card-deck {
+	margin-top: 20px;
+	.col {
+		margin-bottom: 15px !important;
+	}
+	.card {
+		box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+		.card-header {
+			border-top: 1px solid rgba(0, 0, 0, .125);
+			border-bottom: 1px solid rgba(0, 0, 0, .125);
+			padding: .25rem;
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: bold;
+			color: #5073a5;
+		}
+		.card-title {
+			color: #7b7574;
+			font-size: 1.15rem;
+			text-transform: uppercase;
+			font-weight: bold;
+			margin-bottom: .5rem;
+			padding-top: .5rem;
+			border-top: 1px solid lightgrey;
+		}
+		.card-text {
+			font-size: .85rem;
+			color: #5c5757;
+		}
+		.card-subtitle {
+			color: #5c5757;
+			font-style: italic;
+			font-weight: 100;
+			font-size: .9rem;
+			margin-bottom: .25rem;
+		}
+		// most common image type, 409px across
+		.img-type-1 {
+			width: 100%;
+			margin-top: 0;
+			margin-bottom: -26px;
+		}
+		// images that are 350px across and have narrow margins
+		.img-type-2 {
+			width: 88%;
+			margin-top: 23px;
+			margin-bottom: 2px;
+		}
+	}
+}
+.result_none {
+	margin-top: 3rem;
+	text-align: center;
+}
+.result_single {
+	flex-basis: 100%;
+	max-width: 100%;
+}
