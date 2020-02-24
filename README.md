@@ -6,7 +6,7 @@
           <li>Axios</li>
       </ul>
    <h3>Notes:</h3>
-<h4>Deployment</4>
+<h4>Deployment</h4>
 <p>This app can be deployed on an application server, or to deploy on a static server, use npm run build. To run the app locally, use npm start. You can also view this app from my Heroku account, at </p>
 
 <h4>Visuals</h4>
