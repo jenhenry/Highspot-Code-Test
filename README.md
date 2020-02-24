@@ -7,7 +7,7 @@
       </ul>
    <h3>Notes:</h3>
 <h4>Deployment</h4>
-<p>This app can be deployed on an application server, or to deploy on a static server, use npm run build. To run the app locally, use npm start. You can also view this app from my Heroku account, at </p>
+<p>This app can be deployed on an application server, or to deploy on a static server, use npm run build. To run the app locally, use npm start. You can also view this app from my Heroku account, at <a href="https://highspot-code-test.herokuapp.com/" target="_blank">https://highspot-code-test.herokuapp.com/</a></p>
 
 <h4>Visuals</h4>
 <p>The font for the app is Ubuntu, which is the font used on the Highspot company web page. The Highspot logo and icon are also pulled from the Highspot company web page.</p>
